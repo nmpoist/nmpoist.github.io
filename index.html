@@ -58,35 +58,67 @@
         <!-- /experience -->
 
         <!-- projects -->
-    
+        <section id="projects" class="py-5">
+            <div class="container">
+                <h2 class="text-center">My Projects</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="project-image1.jpg" class="card-img-top" alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Flapping-Wing-Micro-Air-Vehicle</h5>
+                                <p class="card-text">Senior design project focusing on discovering a new more manuverable drone through the use of flapping wings!</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectModal1">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more project cards here -->
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- Modal for Project 1 -->
+<div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectModal1Label">Flapping-Wing-Micro-Air-Vehicle Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>FWMAV is a senior design project through the UCI MAE department that aims to discover the wonders behind natures flight.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
         <!-- /projects -->
     
         <!-- contact -->
-        <div class="section" id="contact">
+        <section id="contact" class="py-5">
             <div class="container">
-                <div class="col-md-12">
-                    <h1 class="size-50">Contact</h1>
-                    <div class="h-50"></div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up">
-    
-                    <h3>Email</h3>
-                    <p><a href = "mailto: nataliepoist@gmail.com"> nataliepoist@gmail.com </a></p>
-    
-                    <h3>Socials</h3>
-                    <ul class="social">
-                            <p><a href='https://www.linkedin.com/in/natalie-poist/'> Linkedin </p>
-                                <i class='ion-social-linkedin'></i>
-                            </a>
-                            <p><a href='https://github.com/nmpoist'> Github </p>
-                                <i class='ion-social-github'></i>
-                            </a>
-                    </ul>
-                    <div class="clearfix"></div>
-                    <div class="h-50"></div>
-                </div>
+                <h2 class="text-center">Contact Me</h2>
+                <p class="text-center">Interested in collaborating or have any questions? Feel free to reach out.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
             </div>
-        </div>
+        </section>        
         <!-- /contact -->
     
     
