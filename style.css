@@ -1,10 +1,18 @@
+html {
+    background-color: #D0EFB1;
+}
+
+body {
+    background-color: #D0EFB1;
+}
+
 .mynavbarlogo {
     font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
 }
 
 .mynavbarlink {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: 'Source Sans 3', sans-serif;
 }
 
