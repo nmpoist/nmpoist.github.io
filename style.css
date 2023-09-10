@@ -28,3 +28,23 @@ body {
 .h-50 {
     height: 50px;
 }
+
+<style>
+    .card {
+        perspective: 1000px;
+    }
+
+    .card-body {
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        transition: transform 0.5s;
+    }
+
+    .card:hover .front {
+        transform: rotateY(180deg);
+    }
+
+    .card:hover .back {
+        transform: rotateY(0deg);
+    }
+</style>
