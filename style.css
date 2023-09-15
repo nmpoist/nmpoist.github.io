@@ -53,8 +53,6 @@ body {
 
 .cardswrapper {
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .card {
