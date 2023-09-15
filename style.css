@@ -36,6 +36,10 @@ body {
     font-family: 'Source Sans 3', sans-serif;
 }
 
+.myrounded {
+    border-radius: 25px;
+}
+
 /* carousel */
 .mycardtitle {
     font-size: 1.5rem;
@@ -74,13 +78,13 @@ body {
     padding: 40px 0px;
 }
 
-.carousel-control-prev {
-    padding-right: 6rem;
-}
+/* .carousel-control-prev {
+    padding-right: 140px;
+} */
 
-.carousel-control-next {
-    padding-left: 6rem;
-}
+/* .carousel-control-next {
+    padding-left: 140px;
+} */
 
 
 /* contact */
