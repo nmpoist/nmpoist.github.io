@@ -6,6 +6,10 @@ body {
     background-color: whitesmoke;
 }
 
+.h-50 {
+    height: 50px;
+}
+
 /* navbar */
 .mynavbarlogo {
     font-size: 2.5rem;
@@ -18,7 +22,7 @@ body {
 }
 
 .mynavbar-bg {
-    background-color: #a7ddad;
+    background-color: whitesmoke;
 }
 
 /* about */
@@ -62,6 +66,10 @@ body {
 .image-wrapper img {
     max-width: 100%;
     max-height: 100%;
+}
+
+#experience-lg {
+    padding: 80px 0px;
 }
 
 /* contact */
