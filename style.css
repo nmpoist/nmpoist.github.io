@@ -26,7 +26,7 @@ body {
 }
 
 /* about */
-.myaboutheader {
+.mysection-header {
     font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
 }
@@ -49,6 +49,8 @@ body {
 
 .cardswrapper {
     display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .card {
@@ -68,14 +70,23 @@ body {
     max-height: 100%;
 }
 
-#experience-lg {
-    padding: 80px 0px;
+#experience {
+    padding: 40px 0px;
 }
+
+.carousel-control-prev {
+    padding-right: 6rem;
+}
+
+.carousel-control-next {
+    padding-left: 6rem;
+}
+
 
 /* contact */
 #contact {
-    padding: 100px 0px;
-    background: #a7ddad;
+    padding: 50px 0px;
+    background: whitesmoke;
 }
 
 #linkedin-logo {
@@ -88,8 +99,13 @@ body {
     height: 2rem;
 }
 
+.mysubsection-header {
+    font-size: 1.75rem;
+    font-family: 'Source Sans 3', sans-serif;
+}
 
 /* responsive media queries */
+
 @media (max-width: 500px) {
     .card:not(:first-child) {
         display: none;
