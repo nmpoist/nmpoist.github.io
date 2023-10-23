@@ -40,7 +40,7 @@ body {
     border-radius: 25px;
 }
 
-/* carousel */
+/* expereince cards */
 .mycardtitle {
     font-size: 1.5rem;
     font-family: 'Playfair Display', serif;
@@ -76,13 +76,19 @@ body {
     padding: 40px 0px;
 }
 
-/* .carousel-control-prev {
-    padding-right: 140px;
-} */
+.myheaderwrapper {
+    height: 5rem;
+}
 
-/* .carousel-control-next {
-    padding-left: 140px;
-} */
+.mysubsection-header {
+    font-size: 1.75rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.mysubsection-text {
+    font-size: 1.25rem;
+    font-family: 'Source Sans 3', sans-serif;
+}
 
 
 /* contact */
@@ -101,10 +107,7 @@ body {
     height: 2rem;
 }
 
-.mysubsection-header {
-    font-size: 1.75rem;
-    font-family: 'Source Sans 3', sans-serif;
-}
+
 
 /* responsive media queries */
 
